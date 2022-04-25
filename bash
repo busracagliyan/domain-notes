@@ -31,7 +31,7 @@ realm discover -v PARDUS.TEST.TR
 
 echo "Domaine Dahil Ediliyor"
 
-echo -en 'passW0rd' | realm join -v -U Administrator pardus.test.tr
+echo -en '' | realm join -v -U Administrator pardus.test.tr
 
 echo "Domaine Dahil Edildi"
 
