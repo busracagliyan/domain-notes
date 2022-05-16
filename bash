@@ -1,9 +1,3 @@
-"""kod çalıştırılmadan önce /etc/hostname ve 
-			-- hostname.pardus.test.tr
-			 /etc hosts düzenlenmesi gerekiyor
-			--127.0.1.1 hostname.pardus.test.tr hostname
-			--161.9.194.182 winad.pardus.test.tr pardus.test.tr"""
-
 #!/bin/bash
 
 sudo apt install sssd sssd-tools adcli krb5-user samba-common samba-common-bin samba-libs -yq -o Dpkg::Options::="--force-confnew"
